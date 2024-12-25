@@ -3,13 +3,10 @@ import RightConteiner from "./sections/RightConteiner"
 
 export default function App() {
   return (
-    <main className="flex">
-      <section>
+    <main className="flex w-[100%]">
         <LeftConteiner/>
-      </section>
-      <section>
-        <RightConteiner/>
-      </section>
+
+        <RightConteiner />
     </main>
   )
 }

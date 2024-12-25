@@ -1,9 +1,13 @@
-import React from 'react'
+import Nav from "./Nav"
 
 const RightConteiner = () => {
   return (
-    <div>RightConteiner</div>
-  )
+    <section className="">
+        <Nav/>
+        <div></div>
+        <div></div>
+    </section>
+)
 }
 
 export default RightConteiner
