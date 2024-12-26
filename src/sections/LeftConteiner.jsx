@@ -4,7 +4,7 @@ import { categorys, geners } from '../contnet'
 
 const LeftConteiner = () => {
   return (
-    <section className='w-[200px] h-[100vh] overflow-y-scroll absolute left-[-200px] md:left-[0px] z-10 bg-white'>
+    <section className='w-[200px] h-[100vh] overflow-y-scroll left-[-200px] md:left-[0px] z-10 bg-white'>
         <div className='text-3xl text-center text-blue-600 font-bold border-b-[1px] border-b-gray-300 py-6 '>Filmpire</div>
         <div className='text-gray-500 px-4 border-b-[1px] border-b-gray-300'>
             <p className='py-4 text-[12px]'>Categories</p>

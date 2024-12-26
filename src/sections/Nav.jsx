@@ -3,14 +3,27 @@ import moon from '../assets/moonIcon.svg'
 import login from '../assets/loginIcon.svg'
 import search from '../assets/searchIcon.svg'
 import hamburger from '../assets/hamburger.svg'
+import { useState } from 'react'
 
 const Nav = () => {
-  return (
+    const [sunM, setSunM] = useState(true);
+    const [moonM, setMoonM] = useState(false)
+    const zmianaAtrybutuSun = () => {
+        setSunM(!sunM);
+        setMoonM(!moonM);
+    }
+    const zmianaAtrybutuMoon = () => {
+        setSunM(!sunM);
+        setMoonM(!moonM);
+    }
+
+    return (
     <nav className='fixed top-0 w-[100%] md:pl-[216px] h-[10vh] flex justify-between bg-blue-600 text-white px-4'>
         <div className='flex'>
             <div className='flex items-center'>
                 <img src={hamburger} alt="" className=' md:hidden w-[25px]'/>
-                <img src={sun} alt="" className='w-[25px]' />
+                <img src={sun} alt="" className={`w-[25px] ${sunM ? 'block' : 'hidden'}` } onClick={zmianaAtrybutuSun}  />
+                <img src={moon} alt="" className={`w-[25px] ${moonM ? 'block' : 'hidden'}` } onClick={zmianaAtrybutuMoon}  />
             </div>
         </div>
         <div className='flex items-center'>
