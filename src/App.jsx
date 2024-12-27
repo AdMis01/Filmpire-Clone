@@ -18,7 +18,7 @@ export default function App() {
   }, []);
   return (
     <main id="mainElementDark" className="flex w-[100%]">
-        <div id="bgGray" className="bgGray"></div>
+        <div id="bgGray" className="bgGray dark:bg-zinc-900/80"></div>
         <LeftConteiner/>
 
         <RightConteiner goFun={wyszukanieFilmu} filmy={movies} />
