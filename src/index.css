@@ -2,3 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities{
+    .showMenu{
+        @apply right-[0px] block
+    }
+    .showBG{
+        @apply absolute;
+    }
+}

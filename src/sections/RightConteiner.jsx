@@ -1,11 +1,27 @@
+import { useEffect, useState } from "react"
 import Nav from "./Nav"
+import CardMo from "./CardMo"
 
-const RightConteiner = () => {
+const RightConteiner = ({goFun,filmy}) => {
+
   return (
-    <section className="flex flex-col h-[100vh]">
-        <Nav/>
-        <div className="w-[300px] h-[100px]"></div>
-        <div className="w-[100vh] h-[100vh] md:pl-[216px]"></div>
+    <section className="flex flex-col w-[100%] h-[100vh] md:pl-[216px] overflow-y-scroll">
+        <Nav sentFun={goFun}/>
+        {
+          filmy?.length > 0 ? (
+            <div id="container" className="flex flex-wrap justify-evenly pt-20">
+              {filmy.map((movie,index) => (
+                <CardMo key={index} movie = {movie} />
+
+              ))}
+            </div>
+          ) : (
+            <div> 
+              <h2>No movies found</h2>
+            </div>
+          )
+        }
+        
     </section>
 )
 }

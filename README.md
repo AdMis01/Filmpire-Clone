@@ -11,3 +11,8 @@ Icons:
 https://heroicons.com/
 https://www.reshot.com/
 https://uxwing.com/
+
+API do bazy filmów:
+https://imdb.iamidiotareyoutoo.com/docs/index.html#tag/default/GET/search
+Lista
+https://github.com/toddmotto/public-apis/tree/master?tab=readme-ov-file
