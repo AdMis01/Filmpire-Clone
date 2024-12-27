@@ -5,7 +5,7 @@ import CardMo from "./CardMo"
 const RightConteiner = ({goFun,filmy}) => {
 
   return (
-    <section className="flex flex-col w-[100%] h-[100vh] md:pl-[216px] overflow-y-scroll">
+    <section className="flex flex-col w-[100%] h-[100vh] md:pl-[216px] overflow-y-scroll dark:bg-zinc-950">
         <Nav sentFun={goFun}/>
         {
           filmy?.length > 0 ? (
