@@ -2,13 +2,14 @@
 
 Projekt przedstawia clona strony Filmpir.
 
-<center>
+<p align="center">
 ![image](https://github.com/user-attachments/assets/9cfe3ba6-06cb-4d57-a2f9-b20144147387)
 ![image](https://github.com/user-attachments/assets/60e13032-8dd4-42ff-a3b7-3c18d0f6a66b)
 ![image](https://github.com/user-attachments/assets/84980f05-398c-430c-99d3-7b8e9581f728)
 ![image](https://github.com/user-attachments/assets/536e758b-05fa-47d4-a516-59eb1154e607)
 ![image](https://github.com/user-attachments/assets/5e6bde2d-03f0-4a15-9e82-c288c6d216ee)
-</center>
+</p>
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
