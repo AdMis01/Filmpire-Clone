@@ -1,5 +1,8 @@
 # Filmpire Clone
 
+Projekt przedstawia clona strony Filmpir.
+
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
@@ -11,6 +14,8 @@ Icons:
 https://heroicons.com/
 https://www.reshot.com/
 https://uxwing.com/
+
+Strona nie posiada działającego lewego panelu ponieważ przez brak odpowniego API do którego nie można dać odpowiednich zapytań jednak jest przygotowane pod implementacje w przysłości.
 
 API do bazy filmów:
 https://imdb.iamidiotareyoutoo.com/docs/index.html#tag/default/GET/search
