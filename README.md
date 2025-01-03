@@ -1,6 +1,6 @@
 # Filmpire Clone
 
-Projekt przedstawia clona strony Filmpir.
+Projekt przedstawia clona strony Filmpir. Z wykorzystaniem React oraz Tailwinda
 
 ![image](https://github.com/user-attachments/assets/9cfe3ba6-06cb-4d57-a2f9-b20144147387)
 ![image](https://github.com/user-attachments/assets/60e13032-8dd4-42ff-a3b7-3c18d0f6a66b)
